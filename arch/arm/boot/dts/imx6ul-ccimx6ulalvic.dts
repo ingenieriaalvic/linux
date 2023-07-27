@@ -151,9 +151,9 @@
                 		/* RTS_uart2 */
                 		MX6UL_PAD_JTAG_MOD__GPIO1_IO10        		0x1b0b0
 				/* LED_EST_ROJ */
-				->MX6UL_PAD_GPIO1_IO00__GPIO1_IO00		0x1b0b0
+				MX6UL_PAD_GPIO1_IO00__GPIO1_IO00		0x1b0b0
 				/* LED_EST_VER */
-				->MX6UL_PAD_GPIO1_IO01__GPIO1_IO01		0x1b0b0
+				MX6UL_PAD_GPIO1_IO01__GPIO1_IO01		0x1b0b0
 				/* LED_EST_AZUL */
 				MX6UL_PAD_GPIO1_IO05__GPIO1_IO05		0x1b0b0
 				/* LED_TX */
