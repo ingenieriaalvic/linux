@@ -103,29 +103,29 @@
 
 		pinctrl_uart2: uart2grp {
 			fsl,pins = <
-                		MX6UL_PAD_UART2_TX_DATA__UART2_DTE_RX        	0x1b0b1
-                		MX6UL_PAD_UART2_RX_DATA__UART2_DTE_TX        	0x1b0b1
+                	MX6UL_PAD_UART2_RX_DATA__UART2_DCE_RX        		0x1b0b1
+                	MX6UL_PAD_UART2_TX_DATA__UART2_DCE_TX        		0x1b0b1
 			>;
 		};
 
 		pinctrl_uart4: uart4grp {
 			fsl,pins = <
-                		MX6UL_PAD_LCD_CLK__UART4_DTE_RX        		0x1b0b1
-                		MX6UL_PAD_LCD_ENABLE__UART4_DTE_TX        	0x1b0b1
+                	MX6UL_PAD_LCD_ENABLE__UART4_DCE_RX        		0x1b0b1
+                	MX6UL_PAD_LCD_CLK__UART4_DCE_TX        			0x1b0b1
 			>;
 		};
 
 		pinctrl_uart5: uart5grp {
 			fsl,pins = <
-                		MX6UL_PAD_UART5_TX_DATA__UART5_DTE_RX        	0x1b0b1
-                		MX6UL_PAD_UART5_RX_DATA__UART5_DTE_TX        	0x1b0b1
+                	MX6UL_PAD_UART5_RX_DATA__UART5_DCE_RX        		0x1b0b1
+                	MX6UL_PAD_UART5_TX_DATA__UART5_DCE_TX        		0x1b0b1
 			>;
 		};
 
 		pinctrl_uart6: uart6grp {
 			fsl,pins = <
-                		MX6UL_PAD_CSI_MCLK__UART6_DTE_RX        	0x1b0b1
-                		MX6UL_PAD_CSI_PIXCLK__UART6_DTE_TX        	0x1b0b1
+                	MX6UL_PAD_CSI_PIXCLK__UART6_DCE_RX        		0x1b0b1
+                	MX6UL_PAD_CSI_MCLK__UART6_DCE_TX        		0x1b0b1
 			>;
 		};
 
