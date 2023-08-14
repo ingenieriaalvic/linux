@@ -352,7 +352,7 @@ CONFIG_REGULATOR_PFUZE100=y
 # CONFIG_DVB_HELENE is not set
 # CONFIG_DVB_CXD2099 is not set
 # CONFIG_DVB_SP2 is not set
-# CONFIG_DRM is not set
+CONFIG_DRM=y
 # CONFIG_FB is not set
 # CONFIG_FB_MX3 is not set
 # CONFIG_FB_MXS is not set
