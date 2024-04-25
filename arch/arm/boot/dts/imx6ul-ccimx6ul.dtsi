@@ -104,9 +104,9 @@
 			pwroff-wakeup-capable-ios = <>;
 		};
 
-		rtc {
+		/*rtc {
 			compatible = "digi,mca-rtc";
-		};
+		};*/
 
 		watchdog {
 			compatible = "digi,mca-wdt";
@@ -353,7 +353,7 @@
 	 * On the CC6UL the RTC is implemented in the MCA. Therefore we disable
 	 * the internal one.
 	 */
-	status = "disabled";
+	status = "okay";
 };
 
 &snvs_pwrkey  {
