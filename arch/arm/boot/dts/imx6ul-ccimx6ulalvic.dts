@@ -52,7 +52,7 @@
 	status = "okay";
 };
 
-&mca_rtc {
+&rtc {
 	status = "disabled";
 };
 
