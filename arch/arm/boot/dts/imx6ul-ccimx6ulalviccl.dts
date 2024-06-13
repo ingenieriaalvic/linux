@@ -64,6 +64,18 @@
 	status = "okay";
 };
 
+&uart2 {
+	pinctrl-names = "default";
+	pinctrl-0 = <&pinctrl_uart2>;
+	uart-has-rtscts;
+	linux,rs485-enabled-at-boot-time;
+//	rs485-rts-active-high;
+	rs485-rts-active-low;
+	rs485-rx-during-tx;
+	rs485-rts-delay = <0 0>;
+	status = "okay";
+};
+
 &uart4 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&pinctrl_uart4>;
@@ -80,7 +92,7 @@
 	pinctrl-0 = <&pinctrl_uart5>;
 	uart-has-rtscts;
 	linux,rs485-enabled-at-boot-time;
-//	rs485-rts-active-high;	
+//	rs485-rts-active-high;
 //	rs485-rts-active-low;
 	rs485-rts-delay = <0 0>;
 	status = "okay";
@@ -96,7 +108,6 @@
 	rs485-rts-delay = <0 0>;
 	status = "okay";
 };
-
 &usbotg1 {
 	dr_mode = "host";
 	power-active-high;
@@ -167,7 +178,6 @@
                 	MX6UL_PAD_CSI_HSYNC__UART6_DCE_CTS        		0x1b0b1
 			>;
 		};
-
 		pinctrl_hog: hoggrp {
 			fsl,pins = <
 				/* LED_EST_ROJ */
